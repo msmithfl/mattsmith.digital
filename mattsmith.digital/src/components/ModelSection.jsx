@@ -4,7 +4,7 @@ import { useGLTF, OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
 
 const Model = () => {
-  const { scene, animations } = useGLTF('/assets/thps-model-no-mirror-cleanup-blur-3.glb');
+  const { scene, animations } = useGLTF('/assets/thps-model-no-mirror-cleanup-blur-5.glb');
   const mixer = useRef(null);
 
   useEffect(() => {
