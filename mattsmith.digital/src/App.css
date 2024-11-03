@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  forced-color-adjust: none;
+  color-scheme: light;
+}
+
+* {
+  forced-color-adjust: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    forced-color-adjust: none;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  cursor: url('./assets/cursor.png'), auto;
+}
+
+button, a, input, select, textarea {
+  cursor: url('./assets/cursor.png'), auto !important;
+}
+
+*:hover {
+  cursor: url('./assets/cursor.png'), auto !important;
+}
+
+.font-exo2-p {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+}
+.font-exo2-p-b {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 600;
+  font-style: bold;
+}
+
+.font-exo2 {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.font-exo2-sm {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-exo2-regular {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 800;
+}
+
+.stats-text-shadow {
+  text-shadow: 2px 2px 1px black;
+}
+.menu-text-shadow {
+  text-shadow: 2px 2px 1px black;
+}
+
+@keyframes wiggleOnce {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(-5deg); }
+  75% { transform: rotate(5deg); }
+}
+
+.img-wiggle-active {
+  animation: wiggleOnce 0.4s ease-in-out;
+}

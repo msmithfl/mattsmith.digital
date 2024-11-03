@@ -1,0 +1,17 @@
+{
+  "statItems": [
+    { "id": 1, "text": "C#" },
+    { "id": 2, "text": "ENEMY AI" },
+    { "id": 3, "text": "LEVEL DESIGN" },
+    { "id": 4, "text": "CAMERA RIGGING" },
+    { "id": 5, "text": "UI / UX" },
+    { "id": 6, "text": "WEBDEV" },
+    { "id": 7, "text": "OLLIE" }
+  ],
+  "menuItems": [
+    "BIO",
+    "EXPERIENCE",
+    "PROJECTS",
+    "CONTACT"
+  ]
+}
