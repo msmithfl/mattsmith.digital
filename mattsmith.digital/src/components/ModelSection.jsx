@@ -1,10 +1,10 @@
 import React, { Suspense, useEffect, useRef } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { useGLTF, OrbitControls } from '@react-three/drei';
+import { useGLTF, OrbitControls, Html } from '@react-three/drei';
 import * as THREE from 'three';
 
 const Model = () => {
-  const { scene, animations } = useGLTF('/assets/thps-model-no-mirror-cleanup-blur-5.glb');
+  const { scene, animations } = useGLTF('/assets/thps-model-no-mirror-cleanup-blur-20.glb');
   const mixer = useRef(null);
 
   useEffect(() => {
@@ -23,19 +23,28 @@ const Model = () => {
     <primitive
       object={scene}
       position={[0, -1.2, 0]} // Adjust position to center the model
+      rotation={[0, -0.15, 0]} // Rotate model to face forward
       scale={1.4}
     />
   );
 };
 
+const Loader = () => (
+  <Html center>
+    <div className="flex items-center justify-center">
+      <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-yellow-400"></div>
+    </div>
+  </Html>
+);
+
 const ModelSection = () => {
   return (
     <div className="bg-transparent md:ml-0 md:p-4 flex items-center justify-center w-3/5 md:w-1/4">
       <Canvas
-        camera={{ position: [0, 1, 3], fov: 50 }} // Adjust camera position and field of view
+        camera={{ position: [0, 3.2, 0], fov: 50 }} // Adjust camera position and field of view
       >
-        <Suspense fallback={null}>
-          <ambientLight intensity={1.5} />
+        <Suspense fallback={<Loader />}>
+          <ambientLight intensity={2} />
           <Model />
           {/* Customizing OrbitControls to restrict rotation */}
           <OrbitControls

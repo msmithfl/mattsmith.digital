@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import tonyhawkPFP from '../assets/PFP.png';
+import tonyhawkPFP from '../assets/PFP-min.png';
 import unityLogo from '../assets/unity-logo.png';
 import goofyText from '../assets/foot.png';
+import resumeIcon from '../assets/resume-icon-min.png';
+import githubIcon from '../assets/github-icon-min.png';
 
 const DetailsSection = () => {
   const [isWigglingUnity, setIsWigglingUnity] = useState(false);
@@ -9,6 +11,14 @@ const DetailsSection = () => {
 
   const handleMouseEnterUnity = () => {
     setIsWigglingUnity(true);
+  };
+
+  const handleGitHubClick = () => {
+    window.open('https://github.com/msmithfl', '_blank');
+  };
+
+  const handleResumeClick = () => {
+    window.open('/assets/MatthewSmith_GameDeveloper_Resume.pdf', '_blank');
   };
 
   const handleMouseEnterGoofy = () => {
@@ -38,26 +48,26 @@ const DetailsSection = () => {
         </div>
         <div className="flex-1 bg-transparent pb-2 md:p-2 flex flex-col items-center justify-center">
           <img
-            src={unityLogo}
-            alt="Vert Text"
-            className={`max-w-16 md:max-w-20 pb-2 object-contain ${isWigglingUnity ? 'img-wiggle-active' : ''}`}
-            onMouseEnter={handleMouseEnterUnity}
-            onClick={handleMouseEnterUnity}
-            onAnimationEnd={handleAnimationEndUnity}
+            src={githubIcon}
+            alt="GitHub"
+            className={`md:transition-transform md:duration-200 md:ease-in-out md:hover:scale-110 max-w-16 md:max-w-20 pb-2 object-contain ${isWigglingUnity ? 'img-wiggle-active' : ''}`}
+            //onMouseEnter={handleMouseEnterUnity}
+            onClick={handleGitHubClick}
+            //onAnimationEnd={handleAnimationEndUnity}
           />
-          <hr className="w-16 md:w-24 border-t-4 border-yellow-400 mt-1" />
-          <p className="text-lg md:text-2xl text-yellow-400 font-exo2-regular stats-text-shadow">UNITY</p>
+          {/* <hr className="w-16 md:w-24 border-t-4 border-yellow-400 mt-1" />
+          <p className="text-lg md:text-2xl text-yellow-400 font-exo2-regular stats-text-shadow">UNITY</p> */}
         </div>
-        <div className="flex-1 bg-transparent md:p-2 flex flex-col items-center justify-center">
+        <div className="flex-1 bg-transparent pb-2 md:p-2 flex flex-col items-center justify-center">
           <img
-            src={goofyText}
-            alt="Goofy Text"
-            className={`max-w-16 md:max-w-24 object-contain ${isWigglingGoofy ? 'img-wiggle-active' : ''}`}
-            onMouseEnter={handleMouseEnterGoofy}
-            onClick={handleMouseEnterGoofy}
-            onAnimationEnd={handleAnimationEndGoofy}
+            src={resumeIcon}
+            alt="Resume"
+            className={`md:transition-transform md:duration-200 md:ease-in-out md:hover:scale-110 max-w-12 md:max-w-20 object-contain ${isWigglingGoofy ? 'img-wiggle-active' : ''}`}
+            //onMouseEnter={handleMouseEnterGoofy}
+            onClick={handleResumeClick}
+            //onAnimationEnd={handleAnimationEndGoofy}
           />
-          <p className="text-lg md:text-2xl text-yellow-400 font-exo2-regular stats-text-shadow">REGULAR</p>
+          {/* <p className="text-lg md:text-xl text-yellow-400 font-exo2-regular stats-text-shadow" onClick={handleResumeClick}>DOWNLOAD</p> */}
         </div>
       </div>
     </div>

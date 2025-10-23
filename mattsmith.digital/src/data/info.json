@@ -1,12 +1,12 @@
 {
   "statItems": [
     { "id": 1, "text": "C#" },
-    { "id": 2, "text": "ENEMY AI" },
-    { "id": 3, "text": "LEVEL DESIGN" },
-    { "id": 4, "text": "CAMERA RIGGING" },
-    { "id": 5, "text": "UI / UX" },
-    { "id": 6, "text": "WEBDEV" },
-    { "id": 7, "text": "OLLIE" }
+    { "id": 2, "text": "UNITY" },
+    { "id": 3, "text": "ENEMY AI" },
+    { "id": 4, "text": "LEVEL DESIGN" },
+    { "id": 5, "text": "CAMERA RIGGING" },
+    { "id": 6, "text": "UI / UX" },
+    { "id": 7, "text": "WEBDEV" }
   ],
   "menuItems": [
     "BIO",

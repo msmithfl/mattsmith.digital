@@ -1,5 +1,5 @@
 import React from 'react'
-import mainBackground from '../assets/main-background.png';
+import mainBackground from '../assets/main-background-min-1.png';
 import DetailsSection from './DetailsSection';
 import ModelSection from './ModelSection';
 import MenuSection from './MenuSection';
