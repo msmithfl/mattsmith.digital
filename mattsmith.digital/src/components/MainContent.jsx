@@ -1,11 +1,11 @@
 import React from 'react'
-import mainBackground from '../assets/main-background-min-1.png';
+import mainBackground from '../assets/main-background-min-3.jpg';
 import DetailsSection from './DetailsSection';
 import ModelSection from './ModelSection';
 import MenuSection from './MenuSection';
 import StatsSection from './StatsSection';
 
-const MainContent = ({ animationOn }) => {
+const MainContent = ({ animationOn, onModelLoad }) => {
   return (
     <>
       {/* Mobile Layout */}
@@ -15,7 +15,7 @@ const MainContent = ({ animationOn }) => {
       >
         {/* First Section: Model and Details */}
         <div className="flex w-full my-10">
-          <ModelSection />
+          <ModelSection onModelLoad={onModelLoad} />
           <DetailsSection />
         </div>
 
@@ -40,7 +40,7 @@ const MainContent = ({ animationOn }) => {
               <StatsSection animationOn={animationOn} />
               <MenuSection animationOn={animationOn}/>
           </div>
-          <ModelSection />
+          <ModelSection onModelLoad={onModelLoad} />
           <DetailsSection />
       </div>
     </>

@@ -5,7 +5,7 @@ import Devlogs from './popup-layouts/Devlogs';
 import Contact from './popup-layouts/Contact';
 import Placeholder from './popup-layouts/Placeholder';
 import Bio from './popup-layouts/Bio';
-import backButton from '../assets/back-button.png';
+import backButton from '../assets/back-button-min.png';
 import customScrollHandleImage from '../assets/popup/scroll-handle.png';
 import customScrollTrackImage from '../assets/popup/scroll-track.png';
 import playSound from '../utils/playSound';

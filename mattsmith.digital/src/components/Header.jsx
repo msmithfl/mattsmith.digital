@@ -1,6 +1,6 @@
 import React from 'react';
-import headerNameHolder from '../assets/header-name-holder-min-1.png';
-import headerBackground from '../assets/header-background-min-1.png';
+import headerNameHolder from '../assets/header-name-holder-min-2.png';
+import headerBackground from '../assets/header-background-min-2.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faVolumeXmark, faVolumeHigh } from '@fortawesome/free-solid-svg-icons';
 
