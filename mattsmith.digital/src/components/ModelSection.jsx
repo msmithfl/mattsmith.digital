@@ -23,7 +23,7 @@ const Model = () => {
     <primitive
       object={scene}
       position={[0, -1.2, 0]} // Adjust position to center the model
-      rotation={[0, -0.16, 0]} // Rotate model to face forward
+      rotation={[0, -0.15, 0]} // Rotate model to face forward
       scale={1.4}
     />
   );
