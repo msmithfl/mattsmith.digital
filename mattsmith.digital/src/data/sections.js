@@ -30,17 +30,17 @@ const sections = {
         {
           title: 'Gameplay Engineer - Bloom Game Studio',
           subtitle: 'December 2023 - Present',
-          description: 'Developed 3D gameplay features for a Mario-style platformer game designed for a Web3 audience. Features included expressive movement mechanics, enemy AI systems, level design and camera rigging.',
+          description: 'Developed 3D gameplay features for a Super Mario-inspired adventure game designed for a Web3 audience ● Features included expressive movement mechanics, enemy AI systems, level design and camera rigging ● Assisted in the creation of a tool suite for code-free design tasks such as enemy-player interactions and level design ■',
         },
         {
           title: 'Digital Engagement Intern - Pérez Art Museum Miami',
           subtitle: 'September 2023 - December 2023',
-          description: 'Developed and deployed a web-based, multiplayer game using React and WebSocket. Conducted user testing sessions to implement player feedback. Attended weekly SCRUM meetings (on-site and online).',
+          description: 'Developed and deployed Masterpiece Mayhem, a web-based multiplayer game using React and WebSocket ● Conducted in-person user testing sessions to implement player feedback ● Held a company-wide presentation to showcase the project ■',
         },
         {
           title: 'Game Development Intern - Augminted Labs',
           subtitle: 'November 2022 - January 2023',
-          description: 'QA testing for Rooftop Rampage, a mobile, Web3 video game developed in Unity (C#). This was an endless runner game developed for the Kaiju Kingz metaverse project. Reported playtesting bugs with detailed feedback and attended SCRUM meetings with the team.',
+          description: 'QA testing for Rooftop Rampage, a mobile, Web3 video game developed in Unity/C# ● This was an endless runner game developed for the Kaiju Kingz metaverse project ● Reported playtesting bugs with detailed reproduction steps and additional feedback ■',
         },
       ],
     },
@@ -55,28 +55,28 @@ const sections = {
           title: "Bloom Studio Flagship Project (Demo)",
           subtitle: 'Super Mario-style, puzzle-adventure game',
           video: bloomDemoClip,
-          description: 'Players navigate through a vibrant world filled with challenging puzzles and enemies. This game features expressive movement mechanics, engaging puzzle design, and environmental storytelling.',
+          description: 'Players navigate through a vibrant world filled with challenging puzzles and enemies ● This game features expressive movement mechanics, engaging puzzle design, and environmental storytelling ■',
           builtWith: 'Unity / C#',
         },
         {
           title: "Masterpiece Mayhem",
           subtitle: 'Jackbox-style painting game',
           video: masterpieceMayhemClip,
-          description: 'Complete with a multiplayer lobby system, players compete against each other to recreate an artwork from Pérez Art Museum’s permanent collection in a 60-second period of time. Users are scored with a pixel-based comparison algorithm.',
+          description: 'Complete with a multiplayer lobby system, players compete against each other to recreate an artwork from Pérez Art Museum’s permanent collection in a 60-second period of time ● Users are scored with a pixel-based comparison algorithm ■',
           builtWith: 'React / WebSocket',
         },
         {
           title: "Office Chair Racers",
           subtitle: 'Physics-based, multiplayer racing game',
           video: officeChairRacersClip,
-          description: 'Players race against each other on office chairs propelled by fire extinguishers. This game features physics-based movement, multiplayer functionality, racing checkpoint system and dual keyboard/gamepad input.',
+          description: 'Players race against each other on office chairs propelled by fire extinguishers ● This game features local multiplayer functionality, racing checkpoint system and dual keyboard/gamepad input ■',
           builtWith: 'Unity / C#',
         },
         {
           title: "1000 Meters",
           subtitle: 'Speedrunner climbing game',
           video: thousandMetersClip,
-          description: 'Inspired by games like Icy Tower and Celeste, this game tests the player\'s quickness and movement mastery as they must climb out of a cave as fast as possible. It features a combo scoring system, precise movement mechanics and original pixel art.',
+          description: 'Inspired by games like Icy Tower and Celeste, this game tests the player\'s quickness and movement mastery as they must climb out of a cave as fast as possible ● It features a combo scoring system, precise movement mechanics and original pixel art ■',
           builtWith: 'Unity / C# / Aseprite',
         },
       ],
@@ -117,18 +117,9 @@ const sections = {
     mobileBackground: bioMobileBackground,
     content: {
       layout: 'bio',
-      description: 'Matt grew up in South Florida and began his journey\n\n\n into game development during his Computer Science degree at Florida International University. This opened up an exciting opportunity to combine programming with his creative interests. His efforts have been utilized in several professional settings, including Pérez Art Museum Miami and Bloom Studio, a Web3 focused gaming company. While software engineering is his primary strength, he also has experience in asset creation, 3D animation, level design, and UI. Matt\'s goal is to build visually captivating experiences with compelling narratives that transport players into unforgettable, interactive worlds.',
+      description: 'Matt grew up in South Florida and began his journey into game development during his Computer Science degree at Florida International University ● This opened up an exciting opportunity to combine programming with his creative interests ● His efforts have been utilized in several professional settings, including Pérez Art Museum Miami and Bloom Studio, a Web3 focused gaming company ● While software engineering is his primary strength, he also has experience in asset creation, 3D animation, level design, and UI ● Matt\'s goal is to build visually captivating experiences with compelling narratives that transport players into unforgettable, interactive worlds ■',
     },
   },
 };
 
 export default sections;
-
-/* OLD BIO DESCRIPTION:
-'Matt grew up in South Florida and has been skateboarding for nearly two decades.
-Along the way, he nurtured a passion for videography, creating several skateboarding films.
-His journey into game development began during his Computer Science studies at Florida International University
-where he discovered a way to combine coding with his creative interests.
-While software engineering is his primary strength, he also has experience in asset design, 3D animation, level design, and UI.
-Matt\'s goal is to build visually captivating experiences with compelling narratives that transport players into unforgettable, interactive worlds.
-*/
