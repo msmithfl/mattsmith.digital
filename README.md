@@ -2,6 +2,8 @@
 
 A portfolio website designed to mimic the Tony Hawk Pro Skater character selection screen built with React + Three.js. This project also features a custom-built Blender model and UI elements.
 
+![Site Demo](./public/assets/site-demo.gif)
+
 ## Tech Stack
 
 - React 18
