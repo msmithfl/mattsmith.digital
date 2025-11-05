@@ -19,4 +19,4 @@ A portfolio website designed to mimic the Tony Hawk Pro Skater character selecti
 
 ## Design Comparison
 
-![Design Comparison](./public/assets/thps-comparison.png)
+![Design Comparison](./public/assets/thps-comparison-gap.png)
