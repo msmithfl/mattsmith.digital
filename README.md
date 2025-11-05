@@ -19,4 +19,4 @@ A portfolio website designed to mimic the Tony Hawk Pro Skater character selecti
 - Interactive 3D character model + animation
 - Sound effects + sound track from the game
 
-![Thps Screenshot](./public/assets/thps-screenshot.png)
+![Thps Screenshot](./public/assets/thps-screenshot.jpg)
