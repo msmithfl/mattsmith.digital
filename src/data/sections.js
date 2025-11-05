@@ -106,7 +106,7 @@ const sections = {
     mobileBackground: contactMobileBackground,
     content: {
       layout: 'contact',
-      description: 'Get in touch through email or LinkedIn.',
+      description: 'Get in touch through email or LinkedIn ■',
       email: 'msmithfl@icloud.com',
       linkedin: 'https://www.linkedin.com/in/matthew-smith-41ba39156/',
       github: 'https://github.com/msmithfl',
@@ -117,7 +117,7 @@ const sections = {
     mobileBackground: bioMobileBackground,
     content: {
       layout: 'bio',
-      description: 'Matt grew up in South Florida and began his journey into game development during his Computer Science degree at Florida International University ● This opened up an exciting opportunity to combine programming with his creative interests ● His efforts have been utilized in several professional settings, including Pérez Art Museum Miami and Bloom Studio, a Web3 focused gaming company ● While software engineering is his primary strength, he also has experience in asset creation, 3D animation, level design, and UI ● Matt\'s goal is to build visually captivating experiences with compelling narratives that transport players into unforgettable, interactive worlds ■',
+      description: 'Matt grew up in South Florida and began his journey into game development during his Computer Science degree at Florida International University ● This opened up an exciting opportunity to combine programming with his creative interests ● His skills have been utilized in several professional settings, including Pérez Art Museum Miami and Bloom Studio, a Web3 focused gaming company ● While software engineering is his primary strength, he also has experience in asset creation, 3D animation, UI/UX and level design ● Matt\'s goal is to build visually captivating experiences with compelling narratives that transport players into unforgettable, interactive worlds ■',
     },
   },
 };
