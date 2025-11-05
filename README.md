@@ -1,6 +1,6 @@
-# mattsmith.digital - React + Three.js site
+# THPS Portfolio Site - React + Three.js
 
-A portfolio website designed to mimic the Tony Hawk Pro Skater character selection screen built with React + Three.js. This project also features a custom-built Blender model and UI elements.
+A portfolio website designed to mimic the Tony Hawk Pro Skater character selection screen built with React + Three.js. This project features a responsive layout and custom-built assets (model + UI).
 
 ![Site Demo](./public/assets/site-demo.gif)
 
@@ -9,13 +9,13 @@ A portfolio website designed to mimic the Tony Hawk Pro Skater character selecti
 - React 18
 - Tailwind CSS
 - Three.js
-- Blender (Model creation)
-- Inkscape (UI design)
+- Blender (Model)
+- Inkscape (UI)
 
 ## Features
 
 - Responsive design
-- Custom-built UI elements
+- Custom-made UI elements
 - Interactive 3D character model + animation
 - Sound effects + sound track from the game
 
